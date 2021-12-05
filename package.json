@@ -1,0 +1,73 @@
+{
+  "name": "v2ray-admin-ui",
+  "description": "v2ray 可视化管理前端",
+  "author": {
+    "name": "xfy520",
+    "email": "longzinziyan@gmail.com",
+    "url": "https://doc.wssio.com/"
+  },
+  "scripts": {
+    "serve": "vite --mode development",
+    "build": "vuedx-typecheck . && vite build --mode production",
+    "http": "http-server ./dist -p 8888 -c-1"
+  },
+  "dependencies": {
+    "ant-design-vue": "3.0.0-alpha.13",
+    "vue": "^3.2.23",
+    "vue-router": "^4.0.12",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^13.2.1",
+    "@commitlint/config-conventional": "^13.2.0",
+    "@types/node": "^16.11.6",
+    "@typescript-eslint/eslint-plugin": "^5.2.0",
+    "@typescript-eslint/parser": "^5.2.0",
+    "@vitejs/plugin-vue": "^1.9.4",
+    "@vitejs/plugin-vue-jsx": "^1.2.0",
+    "@vue/compiler-sfc": "^3.2.23",
+    "@vuedx/typecheck": "^0.7.4",
+    "@vuedx/typescript-plugin-vue": "^0.7.4",
+    "autoprefixer": "^10.4.0",
+    "dotenv": "^10.0.0",
+    "eslint": "^8.1.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-define-config": "^1.1.2",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-jest": "^25.2.2",
+    "eslint-plugin-vue": "^7.20.0",
+    "http-server": "^14.0.0",
+    "husky": "^7.0.4",
+    "jest": "^27.3.1",
+    "less": "^4.1.2",
+    "lint-staged": "^11.2.6",
+    "postcss": "^8.3.11",
+    "postcss-html": "^1.1.1",
+    "postcss-import": "^14.0.2",
+    "postcss-less": "^5.0.0",
+    "stylelint": "^14.0.1",
+    "stylelint-config-html": "^1.0.0",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-standard": "^23.0.0",
+    "stylelint-order": "^5.0.0",
+    "ts-jest": "^27.0.7",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4",
+    "vite": "^2.6.11",
+    "vite-plugin-components": "^0.13.3",
+    "vite-plugin-html": "^2.1.1",
+    "vue-eslint-parser": "^8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xfy520/v2ray-admin-ui.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xfy520/v2ray-admin-ui/issues"
+  },
+  "homepage": "https://github.com/xfy520/v2ray-admin-ui",
+  "engines": {
+    "node": ">=16"
+  }
+}
